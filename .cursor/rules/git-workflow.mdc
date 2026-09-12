@@ -1,0 +1,13 @@
+---
+description: FOT System — git workflow
+alwaysApply: false
+---
+
+# Git workflow
+
+Репозиторий: https://github.com/alfarius42/fot-system
+
+- Разработка прототипа — ветка **`develop`** (`prototype/`).
+- Релиз демо — merge `develop` → **`main`**.
+- Коммит и push — по запросу пользователя.
+- См. `project-docs/Common/actual/GIT_WORKFLOW.md`.

@@ -1,0 +1,30 @@
+---
+description: FOT System — workflow документации (index-first)
+alwaysApply: true
+---
+
+# Documentation workflow
+
+## Принципы
+
+1. **Index-first:** `DOCUMENTATION_INDEX.md` → целевой doc → код.
+2. **Docs only in** `project-docs/` — не размазывать по `app/`.
+3. **Scope change:** FULL_SPEC + SCOPE_CHANGELOG + TZ_CHANGELOG + TODO.
+4. **Ответы заказчика:** QUESTIONS → FULL_SPEC + TZ_CHANGELOG.
+
+## При изменении функционала
+
+| Изменение | Документы |
+|-----------|-----------|
+| Scope | FULL_SPEC, SCOPE_CHANGELOG, TODO |
+| Ответы на ТЗ | TZ_CHANGELOG, FULL_SPEC, QUESTIONS (закрыть пункт) |
+| App | App/actual/SPEC.md (+ ARCHITECTURE) |
+| Оценка | Common/actual/estimate-fot.xlsx, BENCHMARKS.md, CALENDAR_PLAN.md |
+
+## Feature traceability
+
+В SPEC указывать ID из оценки (REF-01, SCH-01…) где применимо.
+
+## Pre-sale
+
+Git не инициализирован. Коммиты — только после явного старта проекта.

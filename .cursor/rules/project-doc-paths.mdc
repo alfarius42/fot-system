@@ -1,0 +1,37 @@
+---
+description: FOT System — канонические пути документации
+alwaysApply: true
+---
+
+# Project doc paths — FOT System
+
+Pre-sale: git не подключён. При конфликте с user rules по git — **приоритет user rules**.
+
+## Первичные документы
+
+| Назначение | Путь |
+|------------|------|
+| Индекс | `project-docs/DOCUMENTATION_INDEX.md` |
+| Full spec | `project-docs/Common/actual/FULL_SPEC.md` |
+| Бриф заказчика | `project-docs/Common/actual/BRIEF.md` |
+| Бенчмарки | `project-docs/Common/actual/BENCHMARKS.md` |
+| Scope changelog | `project-docs/Common/actual/SCOPE_CHANGELOG.md` |
+| Git workflow | `project-docs/Common/actual/GIT_WORKFLOW.md` |
+| TODO | `project-docs/TODO.md` |
+| Spec App | `project-docs/App/actual/SPEC.md` |
+| Architecture | `project-docs/App/actual/ARCHITECTURE.md` |
+| AGENTS | `AGENTS.md` |
+| Stack skill | `.cursor/skills/fot-web-stack/SKILL.md` |
+
+## Порядок загрузки
+
+1. `AGENTS.md`
+2. `project-docs/DOCUMENTATION_INDEX.md`
+3. `FULL_SPEC.md` → `QUESTIONS.md` → App/SPEC → ARCHITECTURE
+4. `TODO.md`
+5. Код: `app/` *(только после старта разработки)*
+
+## actual / archive
+
+- Актуальное — `*/actual/`
+- Устаревшее — `*/archive/`
