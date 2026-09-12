@@ -29,7 +29,7 @@ alwaysApply: true
 2. `project-docs/DOCUMENTATION_INDEX.md`
 3. `FULL_SPEC.md` → `QUESTIONS.md` → App/SPEC → ARCHITECTURE
 4. `TODO.md`
-5. Код: `app/` *(только после старта разработки)*
+5. Код прототипа: `prototype/frontend/` *(ветка `develop`)*
 
 ## actual / archive
 
