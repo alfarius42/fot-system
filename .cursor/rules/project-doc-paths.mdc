@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Project doc paths — FOT System
 
-Pre-sale: git не подключён. При конфликте с user rules по git — **приоритет user rules**.
+Репозиторий: https://github.com/alfarius42/fot-system (`develop` → `main`).
 
 ## Первичные документы
 
